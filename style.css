@@ -1,0 +1,55 @@
+body
+{
+    padding: 100px;
+    margin: 0;
+}
+.form-box
+{
+    padding: 20px;
+    background: #f3f3f3;
+    box-shadow: 10px 10px 10px gray;
+    border-radius: 25px;
+}
+.icon
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: tomato;
+    text-transform: uppercase;
+}
+/* Login Section Css Start */
+#userLoginSection
+{
+    display: block;
+}
+/* Login Section Css End */
+
+/* Transition Section Css Start */
+#transitionSection
+{
+    display: none;
+}
+#transitionSection .transitionBar
+{
+    padding: 20px;
+    margin: 0 10px;
+    border-radius: 25px;
+}
+#transitionSection .deposite
+{
+    background: yellowgreen;
+    color: white;
+    text-transform: uppercase;
+}
+#transitionSection .withdraw
+{
+    background: lightcoral;
+    color: white;
+    text-transform: uppercase;
+}
+#transitionSection .balance
+{
+    background: lightseagreen;
+    color: white;
+    text-transform: uppercase;
+}
+/* Transition Section Css End */
